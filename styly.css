@@ -17,11 +17,23 @@ h1 {
     
 }
 
+.h2_onas {
+    text-align: center;
+    margin-top: 50px;
+    border: 2px gray dotted;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 .h3 {
     text-align: center;
-    font-weight: bold;
     margin-top: 35px;
-    text-shadow: 1px 1px 2px gray;
+    margin-left: 750px;
+    margin-right: 750px;
+    font-size: 30px;
+    border: 2px gray solid;
+    width: fit-content;
+
 }
 
 .navbar {
@@ -50,15 +62,13 @@ h1 {
 
   .popisek-hlavni {
     text-align: center;
-    margin-top:20px;
-    font-weight: bold;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 15px;
     border: 2px gray solid ;
     width: fit-content;
-    margin: auto;
-    margin-top: 35px;
-    box-shadow: 2px 2px 4px #000000;
-    background-color: rgb(199, 199, 199) ;
-    border-radius: 25px;
+    
+
   }
 
   .popisek-hlavni-p {
@@ -72,16 +82,10 @@ img {
 }
 
 .galerie {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center; */
-    /* následující 4 řádky představují nastavení gridu, lze zaměnit za předcházející řádky, kde se používá flex box */
-    /* ale pozor, v gridu můžu dovolit nastavit šířku a výšku obrázků na 100% (viz výše), protože mi rozměry nastavuje grid, ve flexu jsem tam musel mít 400px a 300px */
     display: grid;
     grid-template-columns: repeat(auto-fill, 400px);
     grid-auto-rows: 300px;
     justify-content: center;
-
     margin-bottom: 30px;
     margin-right: 200px;
     margin-left: 200px;
