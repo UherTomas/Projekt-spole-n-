@@ -1,58 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kontakt</title>
-    <link rel="stylesheet" href="styly.css">
-</head>
+    <link rel="stylesheet" href="styly.css" />
+  </head>
 
-<body>
+  <body>
     <h1>Obrázková galerie</h1>
 
     <div class="navbar">
-        <a href="index.html">Domů</a>
-        <a href="galerie.html">Galerie</a>
-        <a href="onas.html">O nás</a>
-        <a href="kontakt.html">Kontakt</a>
-      </div>
+      <a href="index.html">Domů</a>
+      <a href="galerie.html">Galerie</a>
+      <a href="onas.html">O nás</a>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
 
-      <section class="popisek-kontakt">
-        <h2>Kontakt na nás</h2>
-        <p class="p-kontakt">V případě dotazů či nápadů na zlepšení nás můžete kontaktovat na těchto adresách</p>
+    <section class="popisek-kontakt">
+      <h2>Kontakt na nás</h2>
+      <p class="p-kontakt">
+        V případě dotazů či nápadů na zlepšení nás můžete kontaktovat na těchto
+        adresách
+      </p>
 
-        <section class="kontakt-kontakt">
+      <section class="kontakt-kontakt">
         <p class="p-kontakt">Telefonní číslo: +420 66669696</p>
         <p class="p-kontakt">Email: projektkurz@mailos.cz</p>
         <p class="p-kontakt">Adresa sídla: Praha 99</p>
-        </section>
-
-        <div class="form-container">
-            <form action="submit_form.php" method="post">
-                <h2>Kontaktujte nás</h2>
-    
-                <label for="name">Jméno:</label>
-                <input type="text" id="name" name="name" placeholder="Váše jméno" required>
-    
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Váš email" required>
-    
-                <label for="password">Telefonní číslo:</label>
-                <input type="password" id="password" name="password" placeholder="Vaše telefonní číslo" required>
-    
-                <label for="gender">Pohlaví:</label>
-                <div>
-                    <input type="radio" id="male" name="gender" value="male">
-                    <label for="male">Muž</label>
-    
-                    <input type="radio" id="female" name="gender" value="female">
-                    <label for="female">Žena</label>
-                </div>
-
-                <textarea name="dotaz" id="dotaz" class="dotaz" placeholder="Váš dotaz"></textarea>
-
-                <button type="submit">Odeslat</button>
-            </form>
-        </div>
       </section>
+
+      <div class="form-container">
+        <form action="submit_form.php" method="post">
+          <h2>Kontaktujte nás</h2>
+
+          <label for="name">Jméno:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Váše jméno"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Váš email"
+            required
+          />
+
+          <label for="password">Telefonní číslo:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Vaše telefonní číslo"
+            required
+          />
+
+          <label for="gender">Pohlaví:</label>
+          <div>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Muž</label>
+
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Žena</label>
+          </div>
+
+          <textarea
+            name="dotaz"
+            id="dotaz"
+            class="dotaz"
+            placeholder="Váš dotaz"
+          ></textarea>
+
+          <button type="submit">Odeslat</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
