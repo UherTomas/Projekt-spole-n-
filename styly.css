@@ -27,9 +27,7 @@ h1 {
 
 .h3 {
     text-align: center;
-    margin-top: 35px;
-    margin-left: 750px;
-    margin-right: 750px;
+    margin: auto;
     font-size: 30px;
     border: 2px gray solid;
     width: fit-content;
@@ -62,13 +60,12 @@ h1 {
 
   .popisek-hlavni {
     text-align: center;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin: auto;
     margin-top: 15px;
     border: 2px gray solid ;
     width: fit-content;
+    margin-bottom: 15px;
     
-
   }
 
   .popisek-hlavni-p {
@@ -95,11 +92,13 @@ img {
 .obrazek {
     position: relative;
     overflow: hidden;
+    object-fit: contain;
 }
 
 .obrazek img {
     display: block;
     transition: transform .3s;
+    object-fit: contain;
 }
 
 .obrazek:hover img {
